@@ -47,6 +47,24 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.initial-button {
+  background-color: #ff4d4d;
+  color: white;
+  border-color: #ff4d4d;
+}
+
+.active-button {
+  background-color: #646cff;
+  color: white;
+  border-color: #646cff;
+}
+
 button:hover {
   border-color: #646cff;
 }
